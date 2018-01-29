@@ -1,0 +1,119 @@
+.contact{
+
+    .logo{
+        background: url('../img/KDD-logo.png') no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 150px;
+        width: 250px;
+    }
+
+    .info-section{
+        width: 35%;
+        padding: 54px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+    }
+        .info-box{
+            position: absolute;
+            bottom: 60px;
+            padding: 54px;
+            color: rgb(238, 232, 232);
+           
+
+            h4{
+                font-size: 1.2rem;
+                font-weight: bold;
+                margin: 0.7rem 0;
+            }
+            p{
+                font-size: 1.1rem;
+                font-weight: 300;
+                margin: 0.2rem 0 1.6rem;
+               
+            }
+        }    
+        .icon-section{
+            a{
+                color: white;
+                text-decoration: none;
+                font-size: 1.2rem;
+                padding: 0 10px;
+
+                &:hover{
+
+                    color: rgb(51, 197, 88);
+                }
+            }
+        }      
+    .content-section{
+        background: rgb(241, 238, 238);
+        width: 65%;
+        margin-left: 35%;
+        height: 100%;
+        padding-bottom: 15px;
+    
+    }    
+
+        .img-container{
+            width: 30%;
+            display: inline-block;
+            position: relative;
+            height: 100%;
+        }
+            
+        .form-section{
+            position: absolute;
+            left: -200px;
+            width: 300px;
+            height: 700px;
+            margin-top: 90px;
+           
+            background-color: #1f1e1e; 
+
+            -webkit-box-shadow: 10px 10px 43px -5px rgba(105,96,105,1);
+            -moz-box-shadow: 10px 10px 43px -5px rgba(105,96,105,1);
+            box-shadow: 10px 10px 43px -5px rgba(105,96,105,1)
+        }
+                    
+        .DM-section{ 
+
+            display: inline-block !important;      
+            vertical-align: top;
+            padding: 20% 0 0 0;
+
+        }   
+            .DM-area{
+
+                h1{
+                    line-height: 1.2;
+                    margin: 0 0 30px 0;
+                    font-size: 2.3rem;
+                    font-weight: 700;
+                }
+                    
+                span {
+                    color: rgb(50, 133, 172);
+                    font-weight: bold;
+                }
+
+                    
+
+                h5{
+                    font-size: 1.1rem;
+                    margin: 0 0 2rem;
+                    font-weight: 300;
+                    color: rgb(16, 122, 172);
+                }
+
+                p{
+                    margin-bottom: 15px;
+                    color: rgb(172, 165, 165);
+                    font-weight: lighter;
+                }
+            }                   
+}
