@@ -1,0 +1,58 @@
+.infoSection{
+
+    .logo{
+        background: url('../img/KDD-logo.png') no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 150px;
+        width: 250px;
+    }
+
+    .info-section{
+        width: 35%;
+        padding: 54px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+    }
+        .info-box{
+            position: absolute;
+            bottom: 60px;
+            padding: 54px;
+            color: rgb(238, 232, 232);
+           
+
+            h4{
+                font-size: 1.2rem;
+                font-weight: bold;
+                margin: 0.7rem 0;
+            }
+            p{
+                font-size: 1.1rem;
+                font-weight: 300;
+                margin: 0.2rem 0 1.6rem;
+               
+            }
+
+        .icon-section{
+            a{
+                color: white;
+                text-decoration: none;
+                font-size: 1.2rem;
+                padding: 0 10px;
+
+                &:hover{
+
+                    color: rgb(51, 197, 88);
+                }
+            }
+        }
+
+    }        
+}
+       
+    
+    

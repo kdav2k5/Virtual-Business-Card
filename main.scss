@@ -1,0 +1,150 @@
+@import 'reset';
+@import 'home';
+@import 'resume';
+@import 'contact';
+
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    
+    font-size: 18px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background: rgb(51, 133, 172);
+}
+
+    .menu-icon{
+
+        position: fixed;
+        right: 36px;
+        top: 36px;
+        padding: 20px;
+
+
+        .fa {
+            font-size: 2rem;
+            color: rgb(50, 133, 172);
+            
+
+        }
+        
+
+    }
+
+    .primary-btn{
+        text-decoration: none;
+        background: rgb(50, 133, 172);
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        text-align: center;
+        display: inline-block;
+        padding: 15px 30px;
+        color: white;
+        transition: all 0.3s ease-in-out;
+
+        &:hover{
+            background: rgb(51, 197, 88);
+        }
+
+
+
+    }
+
+    .ghost-btn{
+        text-decoration: none;
+        border: solid rgb(50, 133, 172);
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        text-align: center;
+        display: inline-block;
+        padding: 14px 27px;
+        color: rgb(50, 133, 172);
+        margin-left: 15px;
+        transition: all 0.3s ease-in-out;
+
+        &:hover{
+
+            border-color: rgb(51, 197, 88);
+            
+        }
+
+    }
+
+    #menu{
+        background-color: rgb(50, 133, 172);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        transform: translate3d(-100%,0,0);
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 1;
+        transition: all .5s ease-in-out;
+
+        nav{
+            width: 400px;
+            text-align: center;
+
+            a{
+                display: block;
+                padding: 1rem;
+                text-decoration: none;
+                color: white;
+                font-size: 2.3rem;
+
+                &:hover{
+                    color: grey;
+                }
+
+
+
+            }
+        }
+    }
+
+    .menu-active{
+
+        .menu-icon{
+
+            .fa {
+                color: white;
+            }
+        }
+        #menu{
+
+            width: 100%;
+            top: 0;
+            bottom: 0;
+            transform: translate3d(0,0,0);
+    
+            nav{
+                width: 400px;
+                text-align: center;
+    
+                a{
+                    display: block;
+                    padding: 1rem;
+                    text-decoration: none;
+                    color: white;
+                    font-size: 2.3rem;
+    
+                    &:hover{
+                        color: grey;
+                    }
+    
+    
+    
+                }
+            }
+
+
+    } 
+   
+
+        
+    }
