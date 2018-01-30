@@ -69,20 +69,63 @@
         .form-section{
             position: absolute;
             left: -200px;
-            width: 300px;
-            height: 700px;
-            margin-top: 90px;
-           
-            background-color: #1f1e1e; 
+            width: 450px; 
+            height: 850px;
+            margin-top: 60px;
+                       
+            background-color: #1f1e1e;
+            color: white; 
+            padding: 46px;
 
             -webkit-box-shadow: 10px 10px 43px -5px rgba(105,96,105,1);
             -moz-box-shadow: 10px 10px 43px -5px rgba(105,96,105,1);
-            box-shadow: 10px 10px 43px -5px rgba(105,96,105,1)
+            box-shadow: 10px 10px 43px -5px rgba(105,96,105,1);
+
+            h4{
+                font-size: 1.3rem;
+                margin-top: 10px;
+                margin-bottom: 4rem;
+            }
+
+            input[type="text"],
+            input[type="Email"],
+            textarea{
+
+                width: 100%;
+                background: transparent;
+                border: none;
+                border-bottom: 2px solid rgb(228, 228, 228);
+                margin-bottom: 2rem;
+                font-size: 1.1rem;
+                text-transform: uppercase;
+                line-height: 1.4;
+                color: white;
+                padding: 15px 0;
+                
+            }
+
+            button[type="submit"]{
+
+                border: none;
+                font-size: 1rem;
+                text-transform: uppercase;
+                width: 100%;
+                background: rgb(50, 133, 172);
+                -webkit-border-radius: 30px;
+                -moz-border-radius: 30px;
+                border-radius: 30px;
+                text-align: center;
+                padding: 15px 30px;
+                color: white;
+
+
+
+            }
         }
                     
         .DM-section{ 
 
-            display: inline-block !important;      
+            display: inline-block;      
             vertical-align: top;
             padding: 20% 0 0 0;
 
